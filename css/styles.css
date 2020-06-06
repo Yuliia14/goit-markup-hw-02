@@ -1,0 +1,129 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --logo-web-color: #2196f3;
+  --logo-studio-color: #000000;
+  --primary-white-color: #ffffff;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*header*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-studio-color);
+}
+.logo-blue-part {
+  color: var(--logo-web-color);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--logo-web-color);
+}
+.address {
+  color: var(--primary-text-color);
+  font-style: normal;
+}
+/*Hero*/
+.section-hero {
+  text-align: center;
+  color: var(--primary-white-color);
+  background-color: var(--logo-web-color);
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: inherit;
+}
+/*Features*/
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+features-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*Services*/
+.page-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.services {
+  text-align: center;
+}
+/*Our team*/
+.our-team {
+  text-align: center;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+/*Footer*/
+footer .logo {
+  font-size: 22px;
+  line-height: 1.19;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-address-color);
+  background-color: var(--primary-text-color);
+}
+.footer-address .street-address {
+  color: var(--primary-white-color);
+}
+.footer-invitations {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--primary-text-color);
+}
+.developer-name {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: var(--primary-text-color);
+}
