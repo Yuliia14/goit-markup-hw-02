@@ -40,6 +40,9 @@ a {
 .header-link:focus {
   color: var(--logo-web-color);
 }
+.header-link.current {
+  color: var(--logo-web-color);
+}
 .address {
   color: var(--primary-text-color);
   font-style: normal;
@@ -108,6 +111,7 @@ footer .logo {
   line-height: 1.71;
   color: var(--footer-address-color);
   background-color: var(--primary-text-color);
+  font-style: normal;
 }
 .footer-address .street-address {
   color: var(--primary-white-color);
@@ -126,4 +130,30 @@ footer .logo {
   text-align: center;
   color: rgba(255, 255, 255, 0.4);
   background-color: var(--primary-text-color);
+}
+/*Portfolio*/
+.page-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.page-filter:hover,
+.page-filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--logo-web-color);
+}
+/*main-content*/
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.project-examples p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
 }
