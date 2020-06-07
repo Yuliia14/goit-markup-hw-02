@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --logo-web-color: #2196f3;
+  --primary-blue-color: #2196f3;
   --logo-studio-color: #000000;
   --primary-white-color: #ffffff;
   --footer-address-color: rgba(255, 255, 255, 0.6);
@@ -27,7 +27,7 @@ a {
   color: var(--logo-studio-color);
 }
 .logo-blue-part {
-  color: var(--logo-web-color);
+  color: var(--primary-blue-color);
 }
 .header-link {
   font-weight: 500;
@@ -38,10 +38,10 @@ a {
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--logo-web-color);
+  color: var(--primary-blue-color);
 }
 .header-link.current {
-  color: var(--logo-web-color);
+  color: var(--primary-blue-color);
 }
 .address {
   color: var(--primary-text-color);
@@ -51,7 +51,7 @@ a {
 .section-hero {
   text-align: center;
   color: var(--primary-white-color);
-  background-color: var(--logo-web-color);
+  background-color: var(--primary-blue-color);
   letter-spacing: 0.06em;
 }
 .hero-title {
@@ -102,19 +102,31 @@ features-text {
   font-weight: 500;
 }
 /*Footer*/
+footer {
+  background-color: #2f303a;
+}
 footer .logo {
   font-size: 22px;
   line-height: 1.19;
+  color: var(--primary-white-color);
 }
 .footer-address {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--footer-address-color);
-  background-color: var(--primary-text-color);
   font-style: normal;
 }
-.footer-address .street-address {
+.street-address {
   color: var(--primary-white-color);
+}
+.street-address:hover {
+  color: var(--primary-blue-color);
+}
+.footer-contact {
+  color: var(--footer-address-color);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--primary-blue-color);
 }
 .footer-invitations {
   font-weight: 700;
@@ -122,14 +134,12 @@ footer .logo {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: var(--primary-text-color);
 }
 .developer-name {
   font-size: 12px;
   line-height: 2;
   text-align: center;
   color: rgba(255, 255, 255, 0.4);
-  background-color: var(--primary-text-color);
 }
 /*Portfolio*/
 .page-filter {
@@ -142,7 +152,7 @@ footer .logo {
 .page-filter:hover,
 .page-filter:focus {
   color: var(--primary-white-color);
-  background-color: var(--logo-web-color);
+  background-color: var(--primary-blue-color);
 }
 /*main-content*/
 .portfolio-title {
