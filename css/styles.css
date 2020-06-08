@@ -74,7 +74,7 @@ a {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-features-text {
+.features-text {
   font-size: 14px;
   line-height: 1.71;
 }
