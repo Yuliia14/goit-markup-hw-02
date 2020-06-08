@@ -88,6 +88,15 @@ a {
 }
 .services {
   text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.services-title {
+  background-color: var(--primary-blue-color);
+  width: 370px;
 }
 /*Our team*/
 .our-team {
